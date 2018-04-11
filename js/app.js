@@ -9,7 +9,13 @@ var app = new Vue({
            {name:"Kevin"}
        ],
        name:'',
-       elements:[]
+       elements:[],
+       objectA:{
+           fontSize:'40px'
+       },
+       objectB:{
+           color: "green"
+       }
    },
    methods:{
        addElement: function(){
