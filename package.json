@@ -1,13 +1,14 @@
 {
   "name": "lasophi",
-  "description": "System Manager",
+  "description": "Front end - system Manager",
   "version": "1.0.0",
   "author": "Danilo Araújo <araujotharssis@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initial": "npm i && npm run start",
+    "start": "node_modules/.bin/webpack-dev-server --host 0.0.0.0"
   },
   "dependencies": {
     "vue": "^2.5.11",
