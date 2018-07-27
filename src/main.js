@@ -9,7 +9,4 @@ new Vue({
   el: '#app',
   template: '<Dash/>',
   components: { Dash },
-  // data: {
-  //   title: "Danilo"
-  // }
 })
